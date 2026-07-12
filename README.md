@@ -1,6 +1,3 @@
-# Smart-Interview-Management-System
-A Full Stack Interview Management System built using Spring Boot, React, Java,MySQL,Bootstrap,Vite JWT Authentication and REST APIs for managing candidates, jobs, interviews and recruitment workflows.
-
 # 🚀 Smart Interview Management System (SIMS)
 
 A **Full Stack Interview Management System** built using **Spring Boot, React, MySQL, and JWT Authentication** to simplify the recruitment process. The application enables recruiters to manage candidates, job postings, interviews, feedback, and users through a centralized dashboard with secure authentication.
