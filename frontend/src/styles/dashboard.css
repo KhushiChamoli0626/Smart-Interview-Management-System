@@ -1,0 +1,509 @@
+/* ===========================
+   DASHBOARD BACKGROUND
+=========================== */
+
+.dashboard-container{
+    padding:30px;
+    background:#F4F7FC;
+    min-height:100vh;
+}
+
+
+/* ===========================
+   WELCOME BANNER
+=========================== */
+
+.welcome-banner{
+
+    background:linear-gradient(135deg,#2563EB,#1D4ED8);
+
+    color:white;
+
+    border-radius:22px;
+
+    padding:35px 40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 15px 35px rgba(37,99,235,.25);
+
+    margin-bottom:30px;
+
+}
+
+.welcome-banner h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.welcome-banner p{
+
+    font-size:20px;
+
+    margin-bottom:8px;
+
+}
+
+.welcome-banner span{
+
+    opacity:.9;
+
+    font-size:15px;
+
+}
+
+.today-date{
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(8px);
+
+    padding:16px 22px;
+
+    border-radius:15px;
+
+    font-weight:600;
+
+}
+
+
+/* ===========================
+   DASHBOARD CARDS
+=========================== */
+
+.dashboard-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    height:150px;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
+}
+
+.card-title{
+
+    color:#64748B;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+.dashboard-card h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    margin:0;
+
+}
+
+.card-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:28px;
+
+}
+
+
+/* ===========================
+   ANALYTICS SECTION
+=========================== */
+
+.analytics-section{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    margin-top:30px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.analytics-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid #E5E7EB;
+
+    padding-bottom:18px;
+
+}
+
+.analytics-header h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin:0;
+
+}
+
+.analytics-header p{
+
+    color:#64748B;
+
+    margin:0;
+
+}
+
+
+/* ===========================
+   CHART CARD
+=========================== */
+
+.chart-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+    height:100%;
+
+}
+
+.chart-title{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ===========================
+   INSIGHT CARDS
+=========================== */
+
+.insight-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.insight-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.insight-icon{
+
+    font-size:38px;
+
+    color:#2563EB;
+
+    margin-bottom:18px;
+
+}
+
+.insight-card h6{
+
+    color:#64748B;
+
+    margin-bottom:12px;
+
+    font-size:16px;
+
+}
+
+.insight-card h2{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+
+/* ===========================
+   RECENT TABLE
+=========================== */
+
+.recent-section{
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.recent-section h3{
+
+    font-weight:700;
+
+}
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead{
+
+    background:#F8FAFC;
+
+}
+
+.table thead th{
+
+    color:#475569;
+
+    font-weight:700;
+
+    border:none;
+
+    padding:16px;
+
+}
+
+.table tbody td{
+
+    padding:18px;
+
+    border-top:1px solid #EEF2F7;
+
+}
+
+.table-hover tbody tr:hover{
+
+    background:#F8FBFF;
+
+}
+
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-primary{
+
+    background:#2563EB;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:10px 22px;
+
+    font-weight:600;
+
+}
+
+.btn-primary:hover{
+
+    background:#1D4ED8;
+
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.welcome-banner{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+.today-date{
+
+width:100%;
+
+text-align:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.dashboard-container{
+
+padding:18px;
+
+}
+
+.welcome-banner{
+
+padding:25px;
+
+}
+
+.dashboard-card{
+
+height:auto;
+
+}
+
+.analytics-section{
+
+padding:20px;
+
+}
+
+}
+
+/* ===========================
+   QUICK ACTIONS
+=========================== */
+
+.quick-actions{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.quick-actions h4{
+
+    font-weight:700;
+
+}
+
+.action-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px;
+
+    border-radius:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    background:#F8FAFC;
+
+}
+
+.action-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.1);
+
+}
+
+.action-icon{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:22px;
+
+}
+
+.action-card span{
+
+    font-size:16px;
+
+    font-weight:600;
+
+}

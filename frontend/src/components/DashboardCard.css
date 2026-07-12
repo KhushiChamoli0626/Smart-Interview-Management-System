@@ -1,0 +1,119 @@
+.dashboard-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:all .35s ease;
+
+    cursor:pointer;
+
+    height:170px;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(37,99,235,.15);
+
+}
+
+.card-left{
+
+    display:flex;
+
+    gap:18px;
+
+}
+
+.card-icon{
+
+    width:65px;
+
+    height:65px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:28px;
+
+    flex-shrink:0;
+
+}
+
+.card-title{
+
+    margin:0;
+
+    color:#64748B;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.dashboard-card h2{
+
+    margin:10px 0 5px;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:#0F172A;
+
+}
+
+.card-subtitle{
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+}
+
+.card-trend{
+
+    background:#DCFCE7;
+
+    color:#16A34A;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.trend-up{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:5px;
+
+}

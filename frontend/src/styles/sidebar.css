@@ -1,0 +1,85 @@
+.sidebar{
+
+    width:260px;
+
+    min-height:100vh;
+
+    background:#1E293B;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:20px;
+
+    position:fixed;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+.logo h3{
+
+    font-weight:bold;
+
+    color:white;
+
+}
+
+.logo p{
+
+    color:#cbd5e1;
+
+    font-size:14px;
+
+}
+
+.menu-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:8px;
+
+    transition:.3s;
+
+}
+
+.menu-item:hover{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.menu-item.active{
+
+    background:#2563EB;
+
+}
+
+.logout{
+
+    margin-top:auto;
+
+}
