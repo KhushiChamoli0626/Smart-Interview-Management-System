@@ -1,6 +1,7 @@
 # 🚀 Smart Interview Management System (SIMS)
 <img width="1917" height="970" alt="Screenshot 2026-07-12 030716" src="https://github.com/user-attachments/assets/8591106d-cd13-4588-8bb5-0649bb6575cd" />
 
+
 A **Full Stack Interview Management System** built using **Spring Boot, React, MySQL, and JWT Authentication** to simplify the recruitment process. The application enables recruiters to manage candidates, job postings, interviews, feedback, and users through a centralized dashboard with secure authentication.
 
 ---
@@ -159,16 +160,14 @@ http://localhost:5173
 
 # 📸 Screenshots
 
-> Screenshots will be added after UI completion.
-
 - Login Page
 <img width="1917" height="970" alt="Screenshot 2026-07-12 030716" src="https://github.com/user-attachments/assets/5be0a28d-7c11-47de-b1f3-427bd238c087" />
 
 
 - Dashboard
-  <img width="1918" height="1030" alt="Screenshot 2026-07-12 010456" src="https://github.com/user-attachments/assets/f3678dfb-305b-4c06-91f8-c8d27c02d464" />
+<img width="1918" height="1030" alt="Screenshot 2026-07-12 010456" src="https://github.com/user-attachments/assets/f3678dfb-305b-4c06-91f8-c8d27c02d464" />
 
-  <img width="1911" height="1023" alt="Screenshot 2026-07-12 010617" src="https://github.com/user-attachments/assets/2cd66925-7c4a-430a-926b-2e755496774b" />
+<img width="1911" height="1023" alt="Screenshot 2026-07-12 010617" src="https://github.com/user-attachments/assets/2cd66925-7c4a-430a-926b-2e755496774b" />
 
 
 
