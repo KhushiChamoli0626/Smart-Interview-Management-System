@@ -85,12 +85,7 @@ Smart-Interview-Management-System
 │   ├── src/
 │   ├── public/
 │   ├── package.json
-│   └── ...
-│
-├── screenshots/
-│   ├── login-page.png
-│   ├── dashboard.png
-│   
+│   └── ...   
 │
 ├── .gitignore
 ├── LICENSE
@@ -166,6 +161,8 @@ http://localhost:5173
 > Screenshots will be added after UI completion.
 
 - Login Page
+<img width="1917" height="1030" alt="Screenshot 2026-07-12 030716" src="https://github.com/user-attachments/assets/6e02bfe2-75e7-40e2-8229-02199dc795b0" />
+
 - Dashboard
 
 ---
