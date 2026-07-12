@@ -90,7 +90,7 @@ Smart-Interview-Management-System
 ├── screenshots/
 │   ├── login-page.png
 │   ├── dashboard.png
-│   └── candidate-module.png
+│   
 │
 ├── .gitignore
 ├── LICENSE
